@@ -1,0 +1,114 @@
+/* body div{
+
+    padding:10px;
+} */
+#home-main-image{
+
+    float:left;
+    max-width:45%;
+}
+
+/* div h1{
+
+    text-decoration: underline;
+} */
+
+#main-col-one p:first-of-type{
+
+    margin-top:5%;
+}
+
+/* .carousel-control-prev-icon{
+
+    background-color:blue;
+} */
+
+#main-col-one{
+
+    max-height:600px;
+}
+
+@media (min-width: 992px) and (max-width: 1310px) {
+    #viz-body #main-col-one{
+     margin-top:10%;
+   }
+} 
+
+#main-col-one, #main-col-three{
+
+
+    /* background-color:lightgray; */
+    border-radius:2%;
+}
+
+#main-col-two{
+
+    max-width:100px;
+    margin-top: 1em;
+}
+
+#main-col-three img{
+
+    margin-bottom:1em;
+}
+
+
+h3{
+
+    text-align:center;
+}
+
+#main-row-2{
+
+    padding:2em;
+    /* padding-right:4em;
+    padding-left:4em; */
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 20 20'%3E%3Cpath d='M12.522,10.4l-3.559,3.562c-0.172,0.173-0.451,0.176-0.625,0c-0.173-0.173-0.173-0.451,0-0.624l3.248-3.25L8.161,6.662c-0.173-0.173-0.173-0.452,0-0.624c0.172-0.175,0.451-0.175,0.624,0l3.738,3.736C12.695,9.947,12.695,10.228,12.522,10.4 M18.406,10c0,4.644-3.764,8.406-8.406,8.406c-4.644,0-8.406-3.763-8.406-8.406S5.356,1.594,10,1.594C14.643,1.594,18.406,5.356,18.406,10M17.521,10c0-4.148-3.374-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.147,17.521,10'/%3E%3C/svg%3E");
+  }
+
+  .carousel-control-prev-icon{
+
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 20 20'%3E%3Cpath d='M11.739,13.962c-0.087,0.086-0.199,0.131-0.312,0.131c-0.112,0-0.226-0.045-0.312-0.131l-3.738-3.736c-0.173-0.173-0.173-0.454,0-0.626l3.559-3.562c0.173-0.175,0.454-0.173,0.626,0c0.173,0.172,0.173,0.451,0,0.624l-3.248,3.25l3.425,3.426C11.911,13.511,11.911,13.789,11.739,13.962 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.148,3.374,7.521,7.521,7.521C14.147,17.521,17.521,14.148,17.521,10'/%3E%3C/svg%3E");
+
+  }
+
+  .carousel-caption h5,p{
+
+    color: black;
+  }
+
+  /* .carousel-caption {
+
+    bottom:0;
+    margin-bottom:-50px; 
+  } */
+
+  /* nav first div */
+
+ #navbarNavDropdown{
+
+    max-width:1500px;
+ }
+
+.dropdown-menu.show{
+
+    max-width:20px;
+}
+ .container{
+
+    max-width: 1500px;
+ }
+
+ #comparison-body img{
+
+    max-width:90%;
+ }
+  
+
+ #viz-body img{
+
+    min-width: 175px;
+ }
