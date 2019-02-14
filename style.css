@@ -112,3 +112,13 @@ h3{
 
     min-width: 175px;
  }
+
+ .border-pic{
+
+    border:1px solid black;
+ }
+
+ .separator-row{
+
+    height:4em;
+ }
