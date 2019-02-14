@@ -122,3 +122,25 @@ h3{
 
     height:4em;
  }
+
+ .data-body h2{
+
+    margin-top:2em;
+ }
+
+ .data-body h2 span{
+
+    font-size: 0.5em;
+ }
+
+ .jumbotron{
+
+    margin-top: 1em;
+    background-color: white;
+    border-bottom:1px solid black;
+ }
+
+ nav i:first-child{
+
+    margin-right:0.3em;
+ }
