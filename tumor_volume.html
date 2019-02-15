@@ -4,14 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Pymaceuticals</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/united/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="viz-body">
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <i class="fas fa-atom fa-2x"></i>  
         <a class="navbar-brand" href="https://bman511.github.io/DataStory/">Pymaceuticals</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,9 +56,9 @@
         <div class="row" id="main-row-2">
           <div class="col-lg-7 shadow" id="main-col-one">
               <h1>Tumor Volume by Time Point</h1>
-              <img src="https://github.com/bman511/Pymaceuticals/blob/master/images/met_sites.png?raw=true" class="img-fluid" alt="metastatic sites over time" id="home-main-image">
-              <p>An additional attribute was monitored during the study. Metastatic sites were counted at each timepoint to determine if the drug treatments affected tumor proliferation. The number of metastatic sites by timepoint grew for all trial drugs in addition to placebo. However, the growth was observably slower with Capomulin. Infubinol showed the next-slowest growth with Ketapril being comparable to placebo. </p>
-              <p>It is also more apparent visually that the variability between mice outcomes is lower for Capomulin. This is deduced from the shorter standard error lines present on the data markers in the Capomulin series. Of note is a slight plateau in metastasis for Capomulin and Infubinol. This could be due to variability in the timepoint data but may indicate an upper limit on the growth of metatstatic sites. Additional research for a longer period would be required to confirm.</p>
+              <img src="https://github.com/bman511/Pymaceuticals/blob/master/images/tumor_volume.png?raw=true" class="img-fluid" alt="metastatic sites over time" id="home-main-image">
+              <p>Tumor volumes for each cohort were monitored for the duration of treatment and measured at predetermined intervals.  Here, a time-series look at tumor volume is presented for each investigational therapy and placebo. </p>
+              <p>Again, Capomulin demonstrates a steady decrease compared to the other two therapies. Capomulin shows an approximate decrease in volume of 10 mm3mm3 while the others, including placebo, show an increase in mean tumor size of 20 to 25 mm3mm3.</p>
           </div>
          <div class="col-lg-1" id="main-col-two"></div>
          <div class="col-lg-4 shadow d-flex flex-column justify-content-between" id="main-col-three">
