@@ -1,6 +1,6 @@
 # DataStory
 
-This project is front-end extension of a Python data analysis project analyzing mock pre-clinical trial data.  The analysis repo can be found [here](https://github.com/bman511/Pymaceuticals/blob/master/README.md)
+This project is front-end extension of a Python data analysis project analyzing mock pre-clinical trial data.  The analysis repo can be found [here](https://github.com/bman511/Pymaceuticals/blob/master/README.md).  This project uses HTML, CSS, and javascript to create a more interactive experience when exploring the results.  It heavily utilizes boostrap and bootswatch styling. 
 
 The pages include discussion and visualization of:
 
